@@ -26,6 +26,8 @@
     People *uesr = [People sharedSingleInstancetype];
     
     [uesr addObserver:self forKeyPath:@"color" options:NSKeyValueObservingOptionNew context:nil];
+    
+    NSLog(@"xxxxxxxxx");
 
 }
 - (IBAction)changeButton:(id)sender {
